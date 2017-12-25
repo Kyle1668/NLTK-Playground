@@ -1,7 +1,6 @@
+from texts import Texts
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-
-from texts import Texts
 
 gettysburg_address = word_tokenize(Texts.gettysburg_address)
 stop_words = set(stopwords.words("English"))
